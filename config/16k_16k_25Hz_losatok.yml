@@ -1,0 +1,21 @@
+sample_rate: 16000
+
+AudioVAE.sample_rate: 16000
+AudioVAE.config_dict: {
+  "decoder_depth": 12,
+  "decoder_embed_dim": 1280,
+  "decoder_dim": 128,
+  "decoder_intermediate_size": 5120,
+  "depth": 32,
+  "dtype": "float32",
+  "embed_dim": 1280,
+  "hop_length": 160,
+  "istft_hop": 320,
+  "istft_n_fft": 1280,
+  "model_type": "dashengtokenizer",
+  "n_mels_patch": 128,
+  "num_heads": 16,
+  "transformers_version": "5.1.0",
+  "upsample_tokens": 2
+}
+AudioVAE.semantic_encoder_path: ckpts/semantic_encoder.pth

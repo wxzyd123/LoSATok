@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Checkpoints / large model files
+ckpts/
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+!example/*.pt
+
+# Logs / outputs
+logs/
+outputs/
+runs/
+wandb/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.venv/
+venv/
+env/
