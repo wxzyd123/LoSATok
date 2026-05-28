@@ -1,7 +1,7 @@
 # LoSATok: Low-dimensional Semantic-Acoustic Tokenizer
 
 [![github](https://img.shields.io/badge/Code-Repo-black?logo=github)](https://github.com/wxzyd123/LoSATok)
-[![arXiv](https://img.shields.io/badge/%F0%9F%93%84%20ArXiv-Paper-red.svg)]()
+[![arXiv](https://img.shields.io/badge/%F0%9F%93%84%20ArXiv-Paper-red.svg)](https://arxiv.org/abs/2605.27840)
 [![model](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Model-yellow.svg)](https://huggingface.co/wxzyd123/LoSATok)
 
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
@@ -12,7 +12,7 @@
 models **semantic** and **acoustic** information in a single latent space. 
 LoSATok can performance competitive cross-domain understanding and generation capabilities with a **128-dim** latent `z`. 
 
-See our paper "[LoSATok: Low-dimensional Semantic-Acoustic Tokenizer for Cross-Domain Audio Understanding and Generation]()".
+See our paper "[LoSATok: Low-dimensional Semantic-Acoustic Tokenizer for Cross-Domain Audio Understanding and Generation](https://arxiv.org/abs/2605.27840)".
 
 ---
 ## ✨ Key Features
